@@ -5,7 +5,6 @@ def reverse_each_word(sentence)
     letter
     binding.pry
   end
-
 end
 
 reverse_each_word("Hello there, and how are you?")

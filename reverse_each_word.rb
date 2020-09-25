@@ -5,3 +5,5 @@ def reverse_each_word(sentence)
     binding.pry
   end
 end
+
+reverse_each_word("")

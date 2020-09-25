@@ -6,7 +6,6 @@ def reverse_each_word(sentence)
   end
   
   result = split_sentence.join(" ")
-  binding.pry
 end
 
 reverse_each_word("Hello there, and how are you?")

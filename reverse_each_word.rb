@@ -4,8 +4,7 @@ def reverse_each_word(sentence)
   split_sentence.each do |letter|
     letter.reverse!
   end
-  sent = split_sentence.join(" ")
-  binding.pry
+  result = split_sentence.join(" ")
 end
 
 reverse_each_word("Hello there, and how are you?")
